@@ -1,0 +1,9 @@
+.cabecalho a{
+ text-decoration: none;
+ color: black;
+}
+
+.barra .nav-item a{
+    text-decoration: none;
+    color: black !important;
+}
