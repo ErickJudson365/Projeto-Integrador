@@ -1,9 +1,69 @@
+body{
+    background-color: rgb(69, 119, 185);
+    font-family: andale mono, monospace;
+}
+/*CSS do cabecalho, contendo a logo, o título e o menu de navegação. Presente em todas as páginas.*/
 .cabecalho a{
  text-decoration: none;
  color: black;
 }
-
+.text-center{
+    text-align: center !important;
+}
 .barra .nav-item a{
     text-decoration: none;
     color: black !important;
 }
+
+/*CSS da parte principal da página HOME.*/
+.principal {
+    margin: auto;
+}
+.principal .faixa{
+    background-color: rgb(110, 207, 110);
+    border: solid black 2px;
+    box-shadow: 0px 6px 11px 0px;
+    border-radius: 55px 0px 55px 0px;
+    width: 90vw ;
+    height: 10vh;
+    text-align: center;
+    margin: auto;
+}
+.principal .faixa h2{
+    margin: 10px;
+}
+.principal #first{
+    max-width: 80vw;
+    max-height: 80vh ;
+    margin-left: 10%;
+    border: solid black 2px;
+    border-radius: 5%;
+}
+.principal .card, .mb-3{
+    margin:auto !important;
+    border: solid black 1px;
+    background-color: rgb(69, 119, 185);
+}
+.principal .card-title{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.principal .btn, .btn-primary{
+    background-color: rgb(218, 133, 37) !important;
+    color: black;
+    border: solid 1px black;
+}
+/*CSS da parte de refências dos conteúdos.Presente na página HOME.*/
+.referências a{
+    color: black ;
+    text-decoration: none;
+}
+.referências h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+  
