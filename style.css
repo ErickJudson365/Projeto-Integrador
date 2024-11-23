@@ -1,10 +1,115 @@
-.cabecalho a{
- text-decoration: none;
- color: black;
+body {
+    background-color: rgb(69, 119, 185);
+    font-family: andale mono, monospace;
 }
 
-.barra .nav-item a{
+/*CSS do cabecalho, contendo a logo, o título e o menu de navegação. Presente em todas as páginas.*/
+
+.cabecalho a {
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho .navbar {
+    background-color: rgb(110, 207, 110) !important;
+}
+
+.cabecalho .navbar .dropdown-menu {
+    background-color: rgb(110, 207, 110) !important;
+    border: 1px solid black !important;
+    box-shadow: 0px 6px 11px 0px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.barra .nav-item a {
     text-decoration: none;
     color: black !important;
 }
 
+/*CSS da parte principal da página HOME.*/
+.principal {
+    margin: auto;
+}
+
+.principal .faixa {
+    background-color: rgb(110, 207, 110);
+    border: solid black 2px;
+    box-shadow: 0px 6px 11px 0px;
+    border-radius: 55px 0px 55px 0px;
+    width: 90vw;
+    height: 10vh;
+    text-align: center;
+    margin: auto;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1)
+}
+
+.principal .faixa h2 {
+    margin: 10px;
+}
+
+.principal #first {
+    max-width: 80vw;
+    max-height: 80vh;
+    margin-left: 10%;
+    border: solid black 2px;
+    border-radius: 5%;
+}
+
+.principal .card,
+.mb-3 {
+    margin: auto !important;
+    border: none;
+    background-color: rgb(69, 119, 185);
+    color: white !important;
+}
+
+.principal .card-title {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(110, 207, 110) !important;
+    font-weight: bolder;
+}
+
+.principal .btn,
+.btn-primary {
+    background-color: rgb(110, 207, 110) !important;
+    color: black;
+    border: solid 1px black;
+    box-shadow: 0px 6px 11px 0px;
+}
+
+/*CSS da parte de refências dos conteúdos.Presente na página HOME.*/
+.referências a {
+    color: black;
+    text-decoration: none;
+}
+
+.referências h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+/*CSS da tabela de referências. Presente apenas na página HOME*/
+.referências .table{
+
+    max-width: 95vw !important;
+    margin: auto;
+    border: 2px  solid black;
+}
+.referências .table th, td{
+    background-color: rgb(110, 207, 110) !important ;
+}
+/*CSS do rodapé. Presente em todas as páginas.*/
+.rodapé a {
+    color: black !important;
+}
+
+.rodapé .bg-light {
+    background-color: rgb(110, 207, 110) !important;
+    border: 2px solid black;
+}
