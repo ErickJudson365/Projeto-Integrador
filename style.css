@@ -110,7 +110,7 @@ body {
 
 /*CSS da parte principal do contéudo de núcleo.*/
 
-.assunto .faixa {
+.núcleo .faixa {
     background-color: rgb(110, 207, 110);
     border: solid black 2px;
     box-shadow: 0px 6px 11px 0px;
@@ -121,26 +121,26 @@ body {
     margin: auto;
 }
 
-.assunto .faixa h2 {
+.núcleo .faixa h2 {
     margin: 10px;
     text-decoration: underline;
 }
-.assunto .sumário{
+.núcleo .sumário{
     max-width: 73vw;
     margin-left: 3vw;
 }
-.assunto .sumário h2{
+.núcleo .sumário h2{
     text-align: center;
     text-decoration: underline;
     font-weight: bolder;
     color: white;
 }
-.assunto .sumário ul{
+.núcleo .sumário ul{
     background-color: rgb(110, 207, 110);
     border: 1px solid black;
     border-radius: 10%;
 }
-.assunto ul a{
+.núcleo ul a{
     color: black;
     text-decoration: none;
     border-bottom: 1px solid black;
