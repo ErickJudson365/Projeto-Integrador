@@ -45,7 +45,7 @@ body {
     margin: auto;
 }
 
-.principal .faixa h2 {
+.faixa h1, h2, h3, h4, h5, h6 {
     margin: 10px;
 }
 
@@ -121,9 +121,8 @@ body {
     margin: auto;
 }
 
-.núcleo .faixa h2 {
-    margin: 10px;
-    text-decoration: underline;
+.conteudo ol{
+    color: burlywood;
 }
 .núcleo .sumário{
     max-width: 73vw;
