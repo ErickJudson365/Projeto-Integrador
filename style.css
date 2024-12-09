@@ -145,7 +145,13 @@ body {
     border-bottom: 1px solid black;
     margin-right: 3vw;
 }
-
+.conteudo img{
+    max-width: 100vw;
+}
+.conteudo ol li{
+    font-size: large;
+    margin-right: 10%;
+}
 .conteudo p{
     margin-left: 10%;
     margin-right: 10%;
