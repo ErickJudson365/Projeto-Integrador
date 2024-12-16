@@ -34,9 +34,6 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="index.html">Inicial</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="biom">Biomakete</a>
-                                    </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                                             aria-expanded="false">
@@ -68,7 +65,7 @@
                     <li><a href="#cancer01">O que é o câncer?</a></li>
                     <li><a href="#cancer02">Fatores e hábitos que causam o câncer</a></li>
                     <li><a href="#cancer03">Prevenção e controle</a></li>
-                    <li><a href="#cancer04">Vídeo sobre tipos de câncer</a></li>
+                    <li><a href="#cancer04">Vídeos sobre os tipos de câncer</a></li>
                 </ul>
             </section>
             <div class="conteudo">
@@ -207,10 +204,33 @@
                     contribuir para uma saúde mais robusta e duradoura.
                 </p>
                 </p>
+                <section class="faixa" id="cancer04">
+                    <h1>Tipos de câncer</h1>
+                </section>
+                <div class="video">
+                    <p>
+                    <h2 class="tipos">Câncer de próstata</h2>
+                    <iframe width="320" height="230" src="https://www.youtube.com/embed/OoKhQnCKyCY?si=jtwxUFVSL0uzXDdF"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h2 class="tipos">Câncer de mama</h2>
+                    <iframe width="320" height="230" src="https://www.youtube.com/embed/OoKhQnCKyCY?si=jtwxUFVSL0uzXDdF"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    </p>
+                </div>
             </div>
         </div>
 
 
+        <!--Botão de voltar para cima-->
+        <button id="btnTopo" onclick="voltarAoTopo()" class="btn btn-primary"
+            style="display: none; position: fixed; bottom: 20px; right: 20px;">
+            Voltar ao Topo
+        </button>
 
         <!--Códigos relacionados ao rodapé, presente em todas as páginas.-->
         <div class="rodapé">
@@ -246,6 +266,23 @@
             </footer>
 
         </div>
+        <script>
+            const btnTopo = document.getElementById("btnTopo");
+            window.onscroll = function () {
+                if (document.documentElement.scrollTop > 200) {
+                    btnTopo.style.display = "block";
+                } else {
+                    btnTopo.style.display = "none";
+                }
+            };
+            function voltarAoTopo() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            }
+        </script>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
